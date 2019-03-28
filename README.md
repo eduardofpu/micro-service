@@ -6,3 +6,8 @@ Objetivo desse projeto
 ##criptografia
 ##token
 ```
+# docker
+```
+docker-compose -f stack.yml up
+
+```
