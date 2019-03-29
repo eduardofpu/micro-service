@@ -1,15 +1,15 @@
-spring:
-  profiles:
-    active: zone1
-  application:
-    name: registry
-
 server:
   port: 8081
 
+spring:
+  application:
+    name: registry
+
 eureka:
   client:
-    register-with-eureka: false
     fetch-registry: false
-    service-url:
-      default-zone: http://localhost:${server.port}/eureka/
+    register-with-eureka: false
+
+    serviceUrl:
+      defaultZone: http://localhost:${server.port}/eureka/
+

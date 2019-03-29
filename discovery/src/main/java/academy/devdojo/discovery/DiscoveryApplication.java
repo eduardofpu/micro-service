@@ -4,9 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-//spring-boot:run -Dspring.profiles.active=local -Dserver.port=8080
-@EnableEurekaServer
+//spring-boot:run -Dspring.profiles.active=zone1 -Dserver.port=8081
+
 @SpringBootApplication
+@EnableEurekaServer
 public class DiscoveryApplication {
 
 	public static void main(String[] args) {
