@@ -6,9 +6,6 @@ Objetivo desse projeto
 spring-cloud
 eureka-client
 gateway
-token
-criptografia
-
 ```
 ## Requisitos
 ```
