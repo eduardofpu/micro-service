@@ -2,11 +2,11 @@
 ```
 Objetivo desse projeto
 
-##contruir um api usando microservis
-##gateway
-##criptografia
-##token
-##Reaproveitamento de código
+##Contruir uma API separada por Micro-Services
+spring-cloud
+eureka-client
+gateway
+
 ```
 # Requisitos
 ```
@@ -14,7 +14,7 @@ Java 11
 
 ```
 
-# docker
+# Caso deseje utilizar docker mysql
 ```
 docker-compose -f stack.yml up
 
