@@ -1,4 +1,4 @@
-# micro-service
+## micro-service
 ```
 Objetivo desse projeto
 
@@ -8,7 +8,7 @@ eureka-client
 gateway
 
 ```
-# Requisitos
+## Requisitos
 ```
 Java 11
 
@@ -19,13 +19,22 @@ Java 11
 docker-compose -f stack.yml up
 
 ```
-# Acessar a URL pelo postman
+``
+## Para iniciar o projeto siga a sequência
+```
+Start => DiscoveryApplication
+Start => GatewayApplication
+Start => CourseApplication
+
+```
+
+## Acessar a URL pelo postman
 ```
 Curl GET http://localhost:8080/gateway/course/v1/admin/course
 
 ```
 
-# Tente acessar sem o /gateway  para ver o tipo de erro
+## Tente acessar sem o /gateway  para ver o tipo de erro
 ```
 Curl GET http://localhost:8080/course/v1/admin/course
 
