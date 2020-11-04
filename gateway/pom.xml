@@ -27,7 +27,6 @@
 
 	</dependencies>
 
-
 	<build>
 		<finalName>discovery</finalName>
 		<plugins>
@@ -51,6 +50,5 @@
 
 		</plugins>
 	</build>
-
 
 </project>
